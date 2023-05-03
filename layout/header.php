@@ -7,29 +7,43 @@
 </head>
 <body>
 	<!-- Header -->
-	<nav id="header_navbar">
+	<nav id="header-navbar">
 		<!-- Grid -->
 		<div class="grid">
 			<!-- Header container -->
-			<div class="header_container">
+			<div class="header-container">
 				<!-- Header logo -->
-				<div class="header_logo">
-					<img class="header_logo_header" src="./images/logo-home.png">
+				<div class="header-logo">
+					<a href="index.php">
+						<img class="header-img" src="./images/logo-home.png">
+					</a>
 				</div>
 				<!-- Header search -->
-				<div class="header_search">
+				<div class="header-search">
 
 				</div>
-				<!-- Header Account -->
-				<div class="header_account">
 
+				<!-- Header Cart & Account -->
+				<div class="container">
+					<div class="acc-cart-container">
+						<!-- Header Account -->
+						<!-- <div class="header-account"> -->
+							<div class="dropdown">
+								<button class="btn-account">Tài Khoản</button>
+								<div class="dropdown-options">
+									<a href="#">Đăng Nhập</a>
+									<a href="#">Đăng Ký</a>
+								</div>
+							</div>
+							<!-- </div> -->
+							<!-- Header cart-->
+							<!-- <div class="header-cart"> -->
+								<img class="cart-img" src="./images/cart.png">
+								<!-- </div> -->
+							</div>
+						</div>
+					</div>
 				</div>
-				<!-- Header cart-->
-				<div class="header_cart">
-
-				</div>
-			</div>
-		</div>
-	</nav>
-</body>
-</html>
+			</nav>
+		</body>
+		</html>

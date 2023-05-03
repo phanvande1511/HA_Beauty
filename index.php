@@ -10,7 +10,6 @@
 </head>
   <!-- Header page -->
   <?php require "layout/header.php";?>
-  <p>asd</p>
 <body>
 
 </body>
